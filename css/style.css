@@ -1,0 +1,521 @@
+  @import url(http://allfont.ru/allfont.css?fonts=lucida-sans-unicode);
+ @font-face {
+    font-family: 'palatino_small_caps__old_stRg';
+    src: url('palatino_small_caps__old_style_figures-webfont.woff2') format('woff2'),
+         url('palatino_small_caps__old_style_figures-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'pinyon_scriptregular';
+    src: url('pinyonscript-regular-webfont.woff2') format('woff2'),
+         url('pinyonscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+  margin: 0;
+  transition: all 1s; }
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+.no-gutter {
+  padding-left: 0;
+  padding-right: 0; }
+
+.no-gutter-right {
+  padding-right: 0; }
+
+.no-gutter-left {
+  padding-left: 0; }
+
+.button-transparent {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+  text-transform: uppercase;
+  background: transparent;
+  padding: 15px 36px;
+  border: 2px solid #000;
+  border-radius: 4px;
+  text-align: center; }
+.button-transparent:hover {
+  text-decoration: none;
+  background: #75B200;
+  color: #fff;
+  border: 2px solid #9BCB00;
+}
+.ui-datepicker {
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+}
+.sand {
+  display: none;
+  position: absolute;
+  z-index: 300;
+  font-size: 30px;
+  top: 30px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.sand:hover {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+/*************************/
+/**********HEADER*********/
+/*************************/
+header ul {
+  position: absolute;
+  z-index: 200;
+  left: 15%;
+  margin-top: 20px;
+  text-align: center;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li a {
+  display: inline-block;
+  font-size: 14px;
+  font-family: 'Lucida Sans Unicode', arial;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding-right: 28px;
+  padding-left: 28px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+header ul li:hover a {
+  border-radius: 5px;
+  border: 2px solid #fff;
+  text-decoration: none;
+  color: #fff;
+}
+header img.logo {
+    position: absolute;
+    z-index: 200;
+    left: 50%;
+    top: 150px;
+    margin-left: -174px;
+}
+header .all-icons {
+    position: absolute;
+    z-index: 200;
+    text-align: center;
+    left: 50%;
+    top: 450px;
+    margin-left: -100px;
+}
+header a.icons {
+  display: inline-block;
+  background: #fff;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  color: #694126;
+  line-height: 32px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+header .arrow {
+  display: block;
+  position: absolute;
+  z-index: 200;
+  left: 50%;
+  top: 520px;
+  margin-left: -54px;
+  width: 70px;
+  height: 70px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  -moz-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+cursor: pointer;
+}
+header img.arrow-down {
+  position: absolute;
+  z-index: 205;
+  left: 50%;
+  top: 540px;
+  margin-left: -26px;
+}
+.slick-dots {
+width: 10px !important;
+
+position: absolute !important;
+bottom: 10% !important;
+left: 90% !important;
+}
+.slick-dots li {
+  display: block !important;
+}
+.slick-slide img {
+  width: 100%; }
+
+/*************************/
+/**********about*********/
+/*************************/
+.about, .menu  {
+  text-align: center;
+}
+.about .symb, .menu .symb, .propositions .symb {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.about h1, .menu h1, .propositions h1 {
+  font-family: 'palatino_small_caps__old_stRg', serif;
+    font-size: 40px;
+  color: rgb(168, 74, 62);
+  font-style: italic;
+  line-height: 0.55;
+  text-align: center;
+  margin-top: 90px;
+}
+.about h2, .menu h2, .propositions h2 {
+  font-size: 22px;
+  font-family: "Times New Roman";
+  color: rgb(2, 2, 2);
+  line-height: 1.364;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+.about h3, .menu h3 {
+  font-size: 24px;
+  font-family: "Times New Roman";
+  color: rgb(102, 102, 102);
+  line-height: 1.25;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 53px;
+}
+.about .food-item {
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+/*************************/
+/**********pictures***********/
+/*************************/
+.pictures {
+  margin-top: 110px;
+}
+/*************************/
+/**********submenu***********/
+/*************************/
+.submenu {
+  text-align: center;
+}
+.submenu .rounded {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 40px;
+  display: inline-block;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.submenu .rounded:hover {
+  background: #A84A3E;
+  cursor: pointer;
+}
+
+/*************************/
+/**********features***********/
+/*************************/
+.features {
+  margin-top: 110px;
+}
+.features img {
+  float: left;
+}
+.features .dashed {
+  border-bottom: 1px dashed #000;
+  margin-bottom: 40px;
+  margin-right: 90px;
+}
+.features .features-info {
+  margin-left: 200px;
+  padding-top: 20px;
+}
+.features .features-info h3 {
+  font-size: 20px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.features .features-info h4 {
+  font-size: 14px;
+  font-family: "Times New Roman";
+  color: rgb(129, 129, 129);
+  line-height: 1.714;
+  margin-bottom: 20px;
+}
+.features .features-info h5 {
+  font-size: 30px;
+  font-family: "Times New Roman";
+  color: rgb(168, 74, 62);
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+/*************************/
+/**********reservation***********/
+/*************************/
+.reservation {
+  background: url('../images/photoss.png') #fff no-repeat center center;
+  background-size: cover; 
+  text-align: center;
+  color: #fff;
+  padding-top: 100px;
+  position: relative;
+  background-position: 50% 50%;
+  margin-top: 135px;
+  padding-bottom: 65px;
+}
+.reservation h1 {
+  font-size: 90px;
+  font-family: "pinyon_scriptregular";
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.reservation h2 {
+  font-size: 18px;
+  font-family: "palatino_small_caps__old_stRg";
+  color: rgb(255, 254, 254);
+  font-style: italic;
+  margin-bottom: 65px;
+}
+.reservation .phone-items {
+  display: inline-block;
+}
+.reservation .phone-items a {
+  background: #A84A3E;
+  border-radius: 50%;
+  width: 120px;
+  height: 110px;
+  color: #fff;
+  font-size: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 40px;
+}
+.reservation .phone-items a:hover {
+  text-decoration: none;
+}
+.reservation .phone-items h4 {
+  font-size: 24px;
+  font-family: "Times New Roman";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-align: center;
+}
+.reservation .entries {
+  margin-top: 55px;
+  margin-bottom: 65px;
+}
+.reservation .entries input{
+  background: transparent;
+  height: 60px;
+}
+.reservation .entries .input-group-addon {
+  background: transparent;
+}
+.reservation .subm button {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-align: center;
+  background: transparent;
+  border: 3px solid #A84A3E;
+  border-radius: 10px;
+  height: 60px;
+}
+.reservation .subm button:hover {
+  background: #fff;
+  color: #000;
+}
+
+/*************************/
+/**********propositions***********/
+/*************************/
+.propositions {
+  text-align: center;
+}
+.propositions .propositions-info h2 {
+  font-size: 20px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+.propositions .propositions-info img:first-child {
+  margin-bottom: 40px;
+}
+.propositions .propositions-info .sec-block  h2 {
+  margin-top: 100px;
+}
+.propositions .propositions-info .sec-block p {
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+.propositions p {
+  font-size: 14px;
+  font-family: "Times New Roman";
+  color: rgb(129, 129, 129);
+}
+/*************************/
+/**********map***********/
+/*************************/
+.map {
+  background: url('../images/Слой 33.png') #fff no-repeat center center;
+  background-size: cover; 
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 120px;
+  position: relative;
+  background-position: 50% 50%;
+  margin-top: 170px;
+}
+.map .coord {
+  display: block;
+  position: absolute;
+  z-index: 200;
+  left: 50%;
+  top: -110px;
+  margin-left: -54px;
+  width: 70px;
+  height: 70px;
+  border-radius: 4px;
+  background: #A84A3E;
+  -moz-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+cursor: pointer;
+}
+.map img.place {
+  position: absolute;
+  z-index: 205;
+  left: 50%;
+  top: -90px;
+  margin-left: -30px;
+}
+.map .map-info .white-block {
+  background: #fff;
+  padding: 20px 35px;
+}
+.map .map-info .white-block h2 {
+  font-size: 24px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+.map .map-info .white-block h3 {
+  font-size: 18px;
+  font-family: "Times New Roman";
+  color: rgb(129, 129, 129);
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+/*************************/
+/**********footer***********/
+/*************************/
+footer {
+  text-align: center;
+  margin-top: 75px;
+  padding-bottom: 80px;
+}
+footer ul {
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 0;
+}
+footer ul li {
+  display: inline-block;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+footer ul li a {
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Times New Roman";
+  color: #282828;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+footer ul li a:hover {
+  text-decoration: none;
+  color: #A84A3E;
+}
+footer .all-icons {
+    text-align: center;
+    margin-top: 40px;
+}
+footer a.icons {
+  display: inline-block;
+  background: #999999;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  color: #fff;
+  line-height: 32px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+footer a.icons:hover {
+  background: #A84A3E;
+}
+/*************************/
+/**********bottom_top***********/
+/*************************/
+#toTop {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: #ffedff;
+  background: -moz-linear-gradient(267deg, rgba(255, 237, 255, 0.2) 4%, black 100%);
+  background: -webkit-linear-gradient(267deg, rgba(255, 237, 255, 0.2) 4%, black 100%);
+  background: -o-linear-gradient(267deg, rgba(255, 237, 255, 0.2) 4%, black 100%);
+  background: -ms-linear-gradient(267deg, rgba(255, 237, 255, 0.2) 4%, black 100%);
+  background: linear-gradient(357deg, rgba(255, 237, 255, 0.2) 4%, black 100%);
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: verdana;
+  font-size: 35px;
+  -webkit-box-shadow: 10px 10px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 17px 0px rgba(0, 0, 0, 0.75); }
+
+#toTop .fa {
+  padding-top: 25px; }
+
+/*# sourceMappingURL=style.css.map */

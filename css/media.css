@@ -1,0 +1,91 @@
+﻿/*************************/
+/**********media*********/
+/*************************/
+
+@media screen and (max-width: 1200px) {
+	header ul {
+	  left: 5%;
+	}
+	header img.logo {
+		top: 100px;
+	}
+	header .all-icons {
+		top: 380px;
+	}
+	header .arrow {
+		top: 440px;
+	}
+	header img.arrow-down {
+		top: 460px;
+	}
+}
+
+
+@media screen and (max-width: 992px) {
+	header ul li a {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	header .arrow {
+		display: none;
+	}
+	header img.arrow-down {
+		display: none;
+	}
+	.reservation .phone .fa-phone {
+		display: none;
+	}
+}
+
+
+
+@media screen and (max-width: 768px) {
+	header ul {
+	  left: 2%;
+	}
+	header img.logo {
+		width: 200px;
+		margin-left: -100px;
+		top: 110px;
+	}
+	header .all-icons {
+		display: none;
+	}
+	.reservation .entries .move {
+		margin-bottom: 20px;
+	}
+	.reservation .entries .input-group {
+		margin-bottom: 20px;
+	}
+	.reservation .phone .fa-phone {
+		display: none;
+	}
+	header ul {
+		display: none;
+		padding-left: 55px;
+	}
+	header ul li {
+		display: block;
+		text-align: center;
+		background: #B55B6A;
+
+	}
+	header ul li a {
+		width: 100%;
+	}
+	header .sand {
+		display: block;
+	}
+
+}
+@media screen and (max-width: 480px) {
+	header img.logo {
+		display: none;
+	}
+}
+
+
+
+
+
+
